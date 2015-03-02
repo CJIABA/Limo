@@ -1,0 +1,105 @@
+@media screen and (max-width: 1100px) {
+    #team .social-icons li {
+        border-radius: 5px;
+        margin: 2px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #slider {
+        .slide-element {
+            h1 {
+                font-size: 1.4em;
+            }
+            p {
+                font-size: 0.6em;
+                color: #000;
+            }
+            height: 350px;
+            padding-top: 10px;
+        }
+        .readmore a {
+            margin-top: 10px;
+        }
+        .slide-element img {
+            max-width: 40%;
+            max-height: 250px;
+        }
+        .carousel-control {
+            margin-top: 150px;
+        }
+    }
+    #pricing .col-xs-3 a {
+        padding: 2px 15px;
+    }
+    #headnev ul li {
+        margin-bottom: 5px;
+    }
+    #somework .col-xs-3, #service .col-xs-3, #pricing .col-xs-3, #team .col-xs-3, #footer .col-xs-3 {
+        width: 50%;
+    }
+    #portfolio .portfolio-type ul li {
+        &:first-child {
+            border-radius: 5px 0px 0px 5px;
+        }
+        &:last-child {
+            border-radius: 0px 5px 5px 0px;
+        }
+        margin-left: -5px;
+        border-left: 1px solid #6ec8ba;
+        height: 25px;
+        cursor: pointer;
+        a {
+            padding: 5px 10px 5px 20px;
+            line-height: 25px;
+            font-size: .9em;
+            height: 25px;
+        }
+    }
+    #contactus {
+        .col-md-6 {
+            width: 50%;
+        }
+        .col-md-3 {
+            width: 40%;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #slider {
+        .slide-element {
+            h1 {
+                font-size: 1.1em;
+            }
+            p {
+                font-size: 0.55em;
+            }
+            height: 250px;
+            padding-top: 10px;
+            img {
+                display: none;
+            }
+        }
+        .carousel-control {
+            margin-top: 100px;
+        }
+    }
+    #somework .col-xs-3, #service .col-xs-3, #pricing .col-xs-3, #team .col-xs-3, #footer .col-xs-3 {
+        width: 100%;
+    }
+    #aboutus {
+        .col-xs-6 {
+            width: 100%;
+            margin-top: 60px;
+        }
+        .container-full {
+            padding-top: 0px;
+        }
+    }
+    #testimonial .col-xs-6 {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
